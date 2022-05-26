@@ -4,6 +4,7 @@ package scope_functions
  * let function
  *
  * let 하고 also는 it을 통해서 context object를 참조한다.
+ * null이 아닌 값으로만 코드 블록을 실행시키고 싶을 때 자주 사용된다.
  */
 fun main() {
     // before

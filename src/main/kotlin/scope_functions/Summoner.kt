@@ -1,9 +1,16 @@
 package scope_functions
 
 class Summoner(
-    private var name: String,
-    private var age: Int
+    var win: Boolean
 ) {
+    private var name: String = "test"
+    private var age: Int = 0
+
+    constructor(name: String, age: Int) : this(win = true) {
+        this.name = name
+        this.age = age
+    }
+
     fun changeName(name: String) {
         this.name = name
     }
